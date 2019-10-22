@@ -1,0 +1,10 @@
+spring:
+  kafka:
+    bootstrap-servers: localhost:9092
+    consumer:
+      group-id: my-fourth-application
+    template:
+      default-topic: first_topic
+      
+server:
+  port: 5002
